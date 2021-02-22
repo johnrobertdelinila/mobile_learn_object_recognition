@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "1087596816531",
+    "firebase_url": "https://mobile-learn-cbf06.firebaseio.com",
+    "project_id": "mobile-learn-cbf06",
+    "storage_bucket": "mobile-learn-cbf06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087596816531:android:bc92cdb895c63c43",
+        "android_client_info": {
+          "package_name": "com.capstone.mobilelearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087596816531-5e5rormu7g38n5p0166cd9jp3aohc1r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstone.mobilelearn",
+            "certificate_hash": "e7984b491a116a5da37e682034dac1132d707c5c"
+          }
+        },
+        {
+          "client_id": "1087596816531-7oj4ojbei02mhg2b46ptv62umuuibf7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsilfS_RvHmIViO80WgyUtwqkopd37L38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087596816531-7oj4ojbei02mhg2b46ptv62umuuibf7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087596816531:android:55eb5e20bc96bb58604566",
+        "android_client_info": {
+          "package_name": "com.madhouseapp.kidslearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087596816531-7oj4ojbei02mhg2b46ptv62umuuibf7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsilfS_RvHmIViO80WgyUtwqkopd37L38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087596816531-7oj4ojbei02mhg2b46ptv62umuuibf7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087596816531:android:b8123d5fdbbaafab604566",
+        "android_client_info": {
+          "package_name": "lorma.ccse.ilearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087596816531-7oj4ojbei02mhg2b46ptv62umuuibf7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsilfS_RvHmIViO80WgyUtwqkopd37L38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087596816531-7oj4ojbei02mhg2b46ptv62umuuibf7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

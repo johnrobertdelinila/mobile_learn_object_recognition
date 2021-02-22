@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="lorma.ccse.ilearn">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="lorma.ccse.ilearn.controller.ApplicationController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="lorma.ccse.ilearn.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lorma.ccse.ilearn.LandingActivity"
+            android:theme="@style/AppTheme2">
+
+        </activity>
+        <activity
+            android:name="lorma.ccse.ilearn.AlphabetsActivity"
+            android:parentActivityName="lorma.ccse.ilearn.LandingActivity" />
+        <activity
+            android:name="lorma.ccse.ilearn.AnimalsActivity"
+            android:parentActivityName="lorma.ccse.ilearn.LandingActivity" />
+        <activity
+            android:name="lorma.ccse.ilearn.FruitsActivity"
+            android:parentActivityName="lorma.ccse.ilearn.LandingActivity" />
+        <activity
+            android:name="lorma.ccse.ilearn.VegetablesActivity"
+            android:parentActivityName="lorma.ccse.ilearn.LandingActivity" />
+        <activity
+            android:name="lorma.ccse.ilearn.VehiclesActivity"
+            android:parentActivityName="lorma.ccse.ilearn.LandingActivity" />
+        <activity android:name="lorma.ccse.ilearn.ShapesActivity" />
+        <activity android:name="lorma.ccse.ilearn.ColorsActivity" />
+        <activity android:name="lorma.ccse.ilearn.ObjectsActivity" />
+        <activity android:name="lorma.ccse.ilearn.SpellingsActivity" />
+        <activity
+            android:name="lorma.ccse.ilearn.QuizActivity"
+            android:theme="@style/AppTheme3"/>
+        <activity android:name="lorma.ccse.ilearn.cameraActivity.ClassifierActivity" />
+        <activity android:name="lorma.ccse.ilearn.cameraActivity.CameraActivity" />
+
+        <activity
+            android:name="lorma.ccse.ilearn.view.MainShapeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="lorma.ccse.ilearn.view.SelectShapeActivity"
+            android:parentActivityName="lorma.ccse.ilearn.view.MainShapeActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lorma.ccse.ilearn.view.MainShapeActivity" />
+        </activity>
+        <activity android:name="lorma.ccse.ilearn.view.SettingsShapeActivity"
+            android:parentActivityName="lorma.ccse.ilearn.view.MainShapeActivity"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lorma.ccse.ilearn.view.MainShapeActivity" />
+        </activity>
+        <activity android:name="lorma.ccse.ilearn.view.DrawingActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <!-- Metadata used by Sugar ORM-->
+        <meta-data android:name="DATABASE" android:value="practice_shapes_database.db" />
+        <meta-data android:name="VERSION" android:value="1" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="lorma.ccse.ilearn.model" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7303190061353762~6990578242"/>
+
+        <service android:enabled="true" android:name="lorma.ccse.ilearn.BackgroundSoundService" />
+
+    </application>
+
+</manifest>
